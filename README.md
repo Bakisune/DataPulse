@@ -12,6 +12,7 @@ Esse projeto é uma soluçao para o processamento de arquivos de vendas legados 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white "CSS3 - Linguagem de estilo para estilizar a aparência das páginas.")
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black "JavaScript - Linguagem de programação essencial para interatividade.")
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white "Bootstrap - Framework de frontend para um design responsivo e ágil.")
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white "Vue.js - Framework progressivo para a construção de interfaces de usuário.")
 
 ### **⚙️ Backend**
 
