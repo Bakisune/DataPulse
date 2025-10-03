@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Vendas - Varejo Rápido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Sistema de Vendas</h1>
+            <p>Varejo Rápido - Visualização em Tempo Real</p>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar por cliente ou produto...">
+            </div>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalVendas">0</div>
+                    <div class="stat-label">Total Vendas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalValor">R$ 0</div>
+                    <div class="stat-label">Valor Total</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="vendasTable">
+                <thead>
+                    <tr>
+                        <th data-sort="data_venda">Data da Venda</th>
+                        <th data-sort="cliente_nome">Cliente</th>
+                        <th data-sort="produto_nome">Produto</th>
+                        <th data-sort="quantidade">Quantidade</th>
+                        <th data-sort="valor_unitario">Valor Unitário</th>
+                        <th data-sort="valor_total_venda">Valor Total</th>
+                    </tr>
+                </thead>
+                <tbody id="vendasBody">
+                    <tr>
+                        <td colspan="6" class="loading">Carregando dados...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
